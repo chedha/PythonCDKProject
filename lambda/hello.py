@@ -7,5 +7,5 @@ def handler(event, context):
         "headers": {
             "Content-Type": "text/plain"
         },
-        "body": "Hello CDK!! You've successfully invoked the lambda {}\n".format(event["path"])
+        "body": "You've successfully invoked the lambda {}\n".format(event["path"])
     }
